@@ -55,7 +55,7 @@ function About() {
                     </div>
                     <div classname='col'>
                         <div className='about__text-wrapper'>
-                            <div className='top-line'>hey, thanks for dropping in!</div>
+                            <div className='about__top-line'>hey, thanks for dropping in!</div>
                             <p className='biography'>
                                 My name is Tam, and I’m a Product Designer focusing on people in design. Currently I’m completing my Master’s in Human-Computer Interaction at Carnegie Mellon University.
                                 <br/>

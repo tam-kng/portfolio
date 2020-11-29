@@ -1,0 +1,23 @@
+.vitro {
+    background-color: #ECD6CA;
+    overflow: hidden;
+}
+
+.vitro__top-line {
+    margin: auto;
+    font-size: 64px;
+}
+
+.vitro__img-wrapper {
+    margin: 5%;
+}
+
+.row {
+    display: flex;
+    margin-right: -15px;
+    margin-bottom: -50px;
+    margin-left: -15px;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+}

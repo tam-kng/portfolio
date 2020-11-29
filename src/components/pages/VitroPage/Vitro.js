@@ -8,7 +8,13 @@ function Vitro() {
         <>
             <div className='vitro'>
                 <div className='row'>
+                    <div className='vitro__top-line'>Vitro View</div>
+                </div>
+                <div className='vitro__img-wrapper'>
                     <img src='images/vitroView.png'></img>
+                </div>
+                <div className='row'>
+
                 </div>
             </div>
         </>
