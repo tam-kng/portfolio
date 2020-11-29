@@ -1,0 +1,10 @@
+.resume {
+    background-color: #ECD6CA;
+    overflow: hidden;
+}
+
+.resume__img-container {
+    max-width: 60%;
+    margin: 5%;
+    box-shadow: 0px 4px 10px gray;
+}

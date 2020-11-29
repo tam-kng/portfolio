@@ -1,0 +1,28 @@
+.home {
+    background-color: #ECD6CA;
+    overflow: hidden;
+}
+
+.intro {
+    padding-top: 5%;
+    width: 45%;
+    margin: auto;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.greeting {
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.highlight {
+    background-color: #F1A839;
+}
+
+p {
+    margin-bottom: 20px;
+}
