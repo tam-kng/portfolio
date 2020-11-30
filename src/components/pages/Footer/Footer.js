@@ -16,10 +16,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join our exclusive membership to receive the latest news and trends
+          Send me a message!
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+          Currently open to UX / Product Design positions.
         </p>
         <div className='input-areas'>
           <form>
@@ -29,18 +29,12 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Send</Button>
           </form>
         </div>
       </section>
       <section className='social-media'>
         <div className='social-media-wrap'>
-          <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
-              <MdFingerprint className='navbar-icon' />
-              Tam Nguyen
-            </Link>
-          </div>
           <small className='website-rights'>Tam Nguyen © 2020</small>
           <div className='social-icons'>
             <Link

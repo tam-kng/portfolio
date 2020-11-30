@@ -17,7 +17,7 @@ function Home() {
                     </div>
                     <p>I’m Tam, a <span className='highlight'>Product Designer.</span> I find my passion in building nuanced 
                     and user-focused experiences. Currently earning my <span className='highlight'>Master of Human-Computer 
-                    Interaction</span> @ <span className='highlight'>Carnegie Mellon University.</span></p>
+                    Interaction</span> @ <br/><span className='highlight'>Carnegie Mellon University.</span></p>
                     Come say hi!
                 </div>
                 <div className='projects-container'>

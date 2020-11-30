@@ -40,7 +40,7 @@ function HeroSection({
                                 <img src={img} alt={alt} className='home__hero-img' />
                             </div>
                             <motion.div className='home__hero-arrow-wrapper' variants={arrowMotion}>
-                                <Arrow className='home__hero-arrow' fill='black' width={100} height={75} />
+                                <Arrow className='home__hero-arrow' fill='black'/>
                             </motion.div>
                         </div>
                     </div>

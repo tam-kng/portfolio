@@ -76,7 +76,11 @@
 }
 
 .home__hero-arrow-wrapper {
-    justify-content: right;
+    width: 30%;
+    float: right;
+    margin-top: 10%;
+    margin-bottom: -14%;
+    margin-right: -10%;
 }
 
 .project-links {

@@ -1,23 +1,52 @@
 .vitro {
     background-color: #ECD6CA;
-    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
 }
 
 .vitro__top-line {
     margin: auto;
     font-size: 64px;
+    margin-top: 15%;
+    margin-bottom: 20%;
 }
 
-.vitro__img-wrapper {
+.vitro__img-container {
+    width: 60%;
     margin: 5%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px gray;
+    justify-items: center;
+}
+
+.vitro__img {
+    border-radius: 10px;
 }
 
 .row {
     display: flex;
     margin-right: -15px;
-    margin-bottom: -50px;
     margin-left: -15px;
     flex-wrap: wrap;
     align-content: stretch;
     align-items: center;
+}
+
+.col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.vitro__spec-wrapper {
+    margin-left: 15%;
+}
+
+.vitro__description-wrapper {
+    margin-right: 15%;
 }

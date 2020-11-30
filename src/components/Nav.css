@@ -50,15 +50,30 @@
     text-align: center;
     justify-content: end;
   }
-  
-  .nav-item {
-    height: 80px;
-    border-bottom: 2px solid transparent;
+
+  .nav-item-cover {
+    height: 40px;
+    width: 100px;
   }
   
+  .nav-item {
+    height: 40px;
+    background-image: linear-gradient(to right, #ECD6CA 50%, #F1A839 50%);
+    background-position: 0;
+    background-size: 200%;
+    transition: all 0.5s
+    /*border-bottom: 2px solid transparent;*/
+  }
+
+  .nav-item:hover {
+    background-position: -100%
+  }
+  
+  /*
   .nav-item:hover {
     border-bottom: 2px solid #f00946;
   }
+  */
   
   .nav-links {
     color: black;
