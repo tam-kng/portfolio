@@ -21,7 +21,7 @@ function App() {
     <Router>
       <Nav />
       <Switch>
-        <Route exact path='/' component={Home}/>
+        <Route path='/' component={Home}/>
         <Route path='/about' component={About}/>
         <Route path='/resume' component={Resume}/>
         <Route path='/vitro' component={Vitro}/>
