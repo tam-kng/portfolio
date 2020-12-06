@@ -11,6 +11,7 @@ import {
   } from 'react-icons/fa';
 
 import './About.css';
+import meCasual from '../../../images/meCasual.JPEG';
 
 function About() {
     return (
@@ -19,7 +20,7 @@ function About() {
                 <div className='row'>
                     <div className='col'>
                         <div className='about__img-wrapper'>
-                            <img src='images/meCasual.JPEG'></img>
+                            <img src={meCasual}></img>
                         </div>
                         <div className='about__contact-text-wrapper'>
                             <h2>Contact</h2>

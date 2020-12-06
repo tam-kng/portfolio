@@ -2,6 +2,8 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import './Vitro.css';
+import vitroViewObj from './VitroData.js';
+import vitroViewImg from '../../../images/vitroView.png';
 
 function Vitro() {
     return (
@@ -11,7 +13,7 @@ function Vitro() {
                     <div className='vitro__top-line'>Vitro View</div>
                 </div>
                 <div className='vitro__img-container'>
-                    <img src='images/vitroView.png' className='vitro__img'></img>
+                    <img src={vitroViewImg} className='vitro__img'></img>
                 </div>
                 <div className='row'>
                     <div className='col'>
