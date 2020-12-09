@@ -23,7 +23,7 @@ export const foragerObj = {
     tools: ['Figma', 'Miro'],
     keywords: ['User Research', 'Responsive Design', 'Iterative Prototyping'],
     tagline: 'Prioritizing the safety and comfort of grocery shoppers in a routine but essential activity',
-    introduction: 'Forager puts users first as they shop for groceries, optimizing their grocery trip while limiting their risk and exposure to COVID-19.Reimagining a universal activity to address a rapidly changing world felt like a necessary and exciting challenge, and so I dived into this project so build a better, safer experience.',
+    introduction: 'Forager puts users first as they shop for groceries, optimizing their grocery trip while limiting their risk and exposure to COVID-19. Reimagining a universal activity to address a rapidly changing world felt like a necessary and exciting challenge, and so I dived into this project so build a better, safer experience.',
     problem: 'Shoppers are feeling rushed and stressed during grocery shopping, juggling their search for items with maintaining their personal and community safety.',
     solution: 'Unify the grocery experience with an integrated list editor and novel in-store navigation that prioritizes speed and efficiency with value for both the customer and the grocery store.'
 };
