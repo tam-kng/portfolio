@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 
 import HeroSection from '../../HeroSection.js';
-import { homeObjOne, homeObjTwo } from './Data.js';
+import { foragerObjCard, vitroObjCard } from './Data.js';
 
 import './Home.css';
 
@@ -21,8 +21,8 @@ function Home() {
                     Come say hi!
                 </div>
                 <div className='projects-container'>
-                    <HeroSection {...homeObjOne} />
-                    <HeroSection {...homeObjTwo} />
+                    <HeroSection {...foragerObjCard} />
+                    <HeroSection {...vitroObjCard} />
                 </div>
             </div>
         </>

@@ -1,0 +1,60 @@
+.forager {
+    background-color: #ECD6CA;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    justify-items: center;
+}
+
+.forager__top-line {
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+
+.forager__img-container {
+    width: 30%;
+    padding: 20px 20px 40px 20px;
+    margin-top: 20px;
+    margin-left: 175px;
+    /*border-radius: 10px;*/
+    /*background-color: white;
+    /*box-shadow: 0px 4px 10px rgb(177, 160, 160);*/
+    justify-items: center;
+}
+
+.forager__img {
+    border-radius: 10px;
+}
+
+:first-of-type.project-row{
+    margin-top: 50px;
+}
+
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    width: 80%;
+    background-color: white;
+    /*margin-bottom: 100px;*/
+    padding: 20px;
+}
+
+.project-col {
+    margin-bottom: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
+    flex: 1;
+    max-width: 50%;
+    flex-basis: 50%;
+}
+
+.forager__spec-wrapper {
+
+}
+
+.forager__description-wrapper {
+
+}
