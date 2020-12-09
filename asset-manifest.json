@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ddf64094.chunk.css",
-    "main.js": "/portfolio/static/js/main.e2033b44.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e2033b44.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.61a38149.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.61a38149.js.map",
-    "static/js/2.7a3f929a.chunk.js": "/portfolio/static/js/2.7a3f929a.chunk.js",
-    "static/js/2.7a3f929a.chunk.js.map": "/portfolio/static/js/2.7a3f929a.chunk.js.map",
-    "static/js/3.cb4fb097.chunk.js": "/portfolio/static/js/3.cb4fb097.chunk.js",
-    "static/js/3.cb4fb097.chunk.js.map": "/portfolio/static/js/3.cb4fb097.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e05126fa.chunk.css",
+    "main.js": "/portfolio/static/js/main.7d54f75f.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7d54f75f.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f948ce03.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f948ce03.js.map",
+    "static/js/2.064fde0d.chunk.js": "/portfolio/static/js/2.064fde0d.chunk.js",
+    "static/js/2.064fde0d.chunk.js.map": "/portfolio/static/js/2.064fde0d.chunk.js.map",
+    "static/js/3.8e949338.chunk.js": "/portfolio/static/js/3.8e949338.chunk.js",
+    "static/js/3.8e949338.chunk.js.map": "/portfolio/static/js/3.8e949338.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.ddf64094.chunk.css.map": "/portfolio/static/css/main.ddf64094.chunk.css.map",
-    "static/js/2.7a3f929a.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7a3f929a.chunk.js.LICENSE.txt",
+    "static/css/main.e05126fa.chunk.css.map": "/portfolio/static/css/main.e05126fa.chunk.css.map",
+    "static/js/2.064fde0d.chunk.js.LICENSE.txt": "/portfolio/static/js/2.064fde0d.chunk.js.LICENSE.txt",
     "static/media/Tam_Nguyen-Dec2020_Resume.389bdbb3.png": "/portfolio/static/media/Tam_Nguyen-Dec2020_Resume.389bdbb3.png",
     "static/media/forager-double.278631ee.svg": "/portfolio/static/media/forager-double.278631ee.svg",
     "static/media/forager-home-small.2f05f534.svg": "/portfolio/static/media/forager-home-small.2f05f534.svg",
@@ -21,9 +21,9 @@
     "static/media/vitroView.22e9ae44.png": "/portfolio/static/media/vitroView.22e9ae44.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.61a38149.js",
-    "static/js/2.7a3f929a.chunk.js",
-    "static/css/main.ddf64094.chunk.css",
-    "static/js/main.e2033b44.chunk.js"
+    "static/js/runtime-main.f948ce03.js",
+    "static/js/2.064fde0d.chunk.js",
+    "static/css/main.e05126fa.chunk.css",
+    "static/js/main.7d54f75f.chunk.js"
   ]
 }
