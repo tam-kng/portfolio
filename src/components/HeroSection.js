@@ -13,7 +13,7 @@ function HeroSection({
     lightBg, topLine, lightText, lightTextDesc, headline, description, buttonLabel, img, alt, imgStart
 }) {
     return (
-        <Link to='/forager' className='project-links'>
+        <Link to='/forager2' className='project-links'>
             <motion.div 
                 className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
                 variants={projectMotion}

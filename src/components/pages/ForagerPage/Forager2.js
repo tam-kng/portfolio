@@ -1,7 +1,7 @@
 import React from 'react'
 import { motion } from 'framer-motion';
 
-import './Forager.css';
+import './Forager2.css';
 import { foragerObj } from '../ProjectData.js';
 import foragerHomeSmallImg from '../../../images/forager-home-small.svg';
 import foragerDoubleImg from '../../../images/forager-double.svg';
