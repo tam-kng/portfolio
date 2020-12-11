@@ -1,3 +1,7 @@
+:root {
+    --neptune: rgba(117, 185, 190, 1);
+}
+
 .forager {
     background-color: #ECD6CA;
     width: 100%;
@@ -6,37 +10,17 @@
     justify-items: center;
 }
 
-.forager__top-line {
-    font-weight: bold;
-    font-size: 50px;
-    margin-bottom: 50px;
-}
-
-.forager__img-container {
-    width: 30%;
-    padding: 20px 20px 40px 20px;
-    margin-top: 20px;
-    margin-left: 175px;
-    /*border-radius: 10px;*/
-    /*background-color: white;
-    /*box-shadow: 0px 4px 10px rgb(177, 160, 160);*/
-    justify-items: center;
-}
-
-.forager__img {
-    border-radius: 10px;
-}
-
 :first-of-type.project-row{
     margin-top: 50px;
 }
 
 .project-row {
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
     align-content: stretch;
     align-items: center;
-    width: 80%;
+    width: 65vw;
     background-color: white;
     /*margin-bottom: 100px;*/
     padding: 20px;
@@ -51,11 +35,98 @@
     flex-basis: 50%;
 }
 
-.forager__spec-wrapper {
-
+.project-header {
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    width: 65vw;
 }
 
-.forager__description-wrapper {
+    .project-nav {
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        padding: 5px;
+    }
 
+        .project-nav > div {
+            flex: 1;
+            border: 1px red solid;
+            text-align: center;
+            margin: 10px;
+        }
+
+    .header-title {
+        margin-top: 30px;
+    }
+    
+        .header-title-txt {
+            color: black;
+            font-family: "DM Sans", Helvetica, Arial, serif;
+            font-size: 60px;
+            font-style: normal;
+            font-weight: 700;
+            margin-bottom: -19px;
+        }
+
+        .header-title-block {
+            background-color: var(--neptune);
+            height: 65px;
+            width: 300px;
+        }
+
+    .header-body-txt {
+        color: black;
+        font-family: "DM Sans" Helvetica, Arial, serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+        margin-top: 55px;
+    }
+
+    .header-title-img-container {
+        width: auto;
+        max-width: 555px;
+        margin-bottom: -35px;
+    }
+
+.in-store-img-container {
+    margin: -10px;
 }
 
+.project-specs {
+    flex-direction: row;
+    padding: 5px;
+    width: 60%;
+
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: center;
+    width: 80%;
+    /*margin-bottom: 100px;*/
+}
+
+    .project-specs > div {
+        height: 250px;
+        flex: 1;
+        /*border: 1px red solid;*/
+        text-align: left;
+        margin: 10px;
+    }
+
+    .spec-title {
+        color: var(--neptune);
+        font-family: "DM Sans", Helvetica, Arial, serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+
+    .spec {
+        margin-top: 20px;
+        line-height: 28px;
+    }

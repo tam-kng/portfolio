@@ -27,7 +27,6 @@ function App() {
         <Route path='/about' component={About}/>
         <Route path='/resume' component={Resume}/>
         <Route path='/forager' component={Forager}/>
-        <Route path='/forager2' component={Forager2}/>
         <Route path='/vitro' component={Vitro}/>
       </Switch>
       <Footer />
