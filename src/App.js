@@ -14,7 +14,6 @@ import Home from './components/pages/HomePage/Home.js';
 import About from './components/pages/AboutPage/About.js';
 import Resume from './components/pages/ResumePage/Resume.js';
 import Forager from './components/pages/ForagerPage/Forager.js';
-import Forager2 from './components/pages/ForagerPage/Forager2.js';
 import Vitro from './components/pages/VitroPage/Vitro.js';
 import Footer from './components/pages/Footer/Footer.js';
 

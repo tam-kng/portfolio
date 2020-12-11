@@ -5,10 +5,13 @@ import './Forager.css';
 import { foragerObj } from '../ProjectData.js';
 import foragerHomeSmallImg from '../../../images/forager-home-small.svg';
 import foragerInStoreImg from '../../../images/forager-home-in-store.svg';
+import foragerListImg from '../../../images/forager-list.svg';
+import foragerMapImg from '../../../images/forager-map.svg';
 import hatIcon from '../../../images/cowboy-hat.svg';
 import calendarIcon from '../../../images/calendar.svg';
 import teamIcon from '../../../images/team.svg';
 import toolsIcon from '../../../images/tools.svg';
+import methodIcon from '../../../images/chat-icon.svg';
 import foragerDoubleImg from '../../../images/forager-double.svg';
 
 function Forager() {
@@ -93,6 +96,130 @@ function Forager() {
                                     Nov - Dec 2020
                                 </div>
                             </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-problem'>
+                        <div className='project-col'>
+                            <div className='problem-title-txt'>
+                                PROBLEM
+                            </div>
+                            <div className='problem-title-block'></div>
+                            <div className='problem-bold-txt'>
+                                Today’s grocery shoppers feel rushed and stressed as they attempt to navigate through crowded stores to find their items, while maintaining COVID safety measures.
+                            </div>
+                            <div className='problem-txt'>
+                                The regular grocery trip has turned into a rushed seach for items in the face of the COVID-19 pandemic, as shoppers try to minimize their contact while maximizing their efficiency. Customers are spending too much time indoors, in close quarters with others, wandering aisles as they seek items on their grocery list.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-solution'>
+                        <div className='project-col'>
+                            <div className='solution-title-txt'>
+                                SOLUTION
+                            </div>
+                            <div className='solution-title-block'></div>
+                            <div className='solution-bold-txt'>
+                                Forager builds an expedited route through stores with step-by-step navigation that prioritizes customer safety.
+                            </div>
+                            <div className='solution-txt'>
+                                Through research, my team discovered that key motivators for grocery shoppers are time and efficiency. As the risk of exposure to COVID grows with longer grocery trips, meaning greater time spent near other people, shoppers have made getting in and out their priority. Forager eases this process by generating and walking users through the most time-efficient path through the store, accounting for every item they need.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-imgs'>
+                        <div className='project-col'>
+                            <div className='list-img-container'>
+                                <img src={foragerListImg}></img>
+                            </div>
+                            <div className='img-caption'>
+                                An in-app grocery list editor lets users aggregate their items
+                            </div>
+                        </div>
+                        <div className='project-col img-col'>
+                            <div className='map-img-container'>
+                                <img src={foragerMapImg}></img>
+                            </div>
+                            <div className='img-caption'>
+                                Step-by-step navigation directs users to their desired items
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-value'>
+                        <div className='project-col'>
+                            <div className='value-title-txt'>
+                                VALUE
+                            </div>
+                            <div className='value-title-block'></div>
+                            <div className='value-bold-txt'>
+                                For businesses, Forager delivers a wealth of value.
+                            </div>
+                            <div className='value-body'>
+                                <div className='value-large-txt'>
+                                    Offer insights into supply, stock, and demand
+                                </div>
+                                <div className='value-txt'>
+                                    With Forager’s integrated grocery list editor, as shoppers build their lists, partner businesses can address supply and stock issues by seeing what items have the most demand.
+                                </div>
+                                <div className='value-large-txt'>
+                                    Build business' reputation for safety
+                                </div>
+                                <div className='value-txt'>
+                                    Forager protects customers, and employees. Customers are less likely to require assistance in finding items, reducing contacts, so workforces are protected, all while building partner businesses’ reputation as the safest place to shop.
+                                </div>
+                                <div className='value-large-txt'>
+                                    Leverage existing resources
+                                </div>
+                                <div className='value-txt'>
+                                    This app is low cost to all sizes of groceries, as it doesn’t require any retrofitting of stores or expensive sensors. All Forager needs is a mobile phone and the stores’ maps of items and inventory.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-process'>
+                        <div className='project-col'>
+                            <div className='process-title-txt'>
+                                PROCESS
+                            </div>
+                            <div className='process-title-block'></div>
+                            <div className='process-bold-txt'>
+                                From research studying the problem space to a refined and interactive high-fidelity prototype.
+                            </div>
+                            <div className='process-txt'>
+                                To build a better understanding of our problem space, my team conducted pop-up interviews with our participants via Zoom, asking them to guide us through their workflow as they shopped for groceries. We wanted to hear about real thoughts, emotions, and experiences, from real people.
+                            </div>
+                        </div>
+                        <div className='project-col'>
+                            <div className='spec-methods'>
+                                <img src={methodIcon}></img>
+                                <div className='spec-methods-title'>
+                                    METHODS
+                                </div>
+                                <div>
+                                    Pop-up Research
+                                </div>
+                                <div>
+                                    User Interviews
+                                </div>
+                                <div>
+                                    Customer Journey Maps
+                                </div>
+                                <div>
+                                    Affinity Diagram
+                                </div>
+                                <div>
+                                    Wireframes
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
