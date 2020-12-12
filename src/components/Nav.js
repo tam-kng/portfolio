@@ -8,7 +8,6 @@ import {
     useRouteMatch,
     useParams
   } from 'react-router-dom';
-import { MdFingerprint } from 'react-icons/md';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
@@ -46,7 +45,6 @@ function Nav() {
                 <div className='nav'>
                     <div className='nav-container container'>
                         <Link to='/' className='nav-logo' onClick={closeMobileMenu}>
-                            <MdFingerprint className='navbar-icon' />
                             Tam Nguyen
                         </Link>
                         <div className='menu-icon' onClick={handleClick}>
