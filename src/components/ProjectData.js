@@ -34,7 +34,7 @@ export const kstObj = {
     completed: false,
     
     link: '/',
-    topLine: 'CASE STUDY',
+    topLine: 'UNDER CONSTRUCTION',
     headline: 'KST Passport',
     description: 'Promoting and showcasing community partnerships with local performance art.',
     imgStart: '',
@@ -59,7 +59,7 @@ export const vitroObj = {
     completed: false,
     
     link: '/',
-    topLine: 'CASE STUDY',
+    topLine: 'UNDER CONSTRUCTION',
     headline: 'Vitro View',
     description: 'Adapting to a remote, online world with interactive demonstration tools for physical products.',
     imgStart: '',
