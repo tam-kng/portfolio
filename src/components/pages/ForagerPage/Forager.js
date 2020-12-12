@@ -1,12 +1,18 @@
 import React from 'react'
 import { motion } from 'framer-motion';
+import { Link, animateScroll as scroll } from "react-scroll";
 
 import './Forager.css';
-import { foragerObj } from '../ProjectData.js';
+import { foragerObj } from '../../ProjectData.js';
 import foragerHomeSmallImg from '../../../images/forager-home-small.svg';
 import foragerInStoreImg from '../../../images/forager-home-in-store.svg';
 import foragerListImg from '../../../images/forager-list.svg';
 import foragerMapImg from '../../../images/forager-map.svg';
+import foragerAffinityImg from '../../../images/forager-affinity.svg';
+import foragerCjmImg from '../../../images/forager-cjm.svg';
+import foragerCjmRefinedImg from '../../../images/forager-cjm-refined.svg';
+
+
 import hatIcon from '../../../images/cowboy-hat.svg';
 import calendarIcon from '../../../images/calendar.svg';
 import teamIcon from '../../../images/team.svg';
@@ -20,10 +26,18 @@ function Forager() {
             <div className='forager'>
                 <div className='project-header'>
                     <div className='project-row project-nav'>
-                        <div className='project-nav-item'>PROBLEM</div>
-                        <div className='project-nav-item'>SOLUTION</div>
-                        <div className='project-nav-item'>VALUE</div>
-                        <div className='project-nav-item'>PROCESS</div>
+                        <div className='project-nav-item'>
+                            <Link to="forager-problem" spy={true} smooth={true} offset={-75}>PROBLEM</Link>
+                        </div>
+                        <div className='project-nav-item'>
+                            <Link to='forager-solution' spy={true} smooth={true} offset={-75}>SOLUTION</Link>
+                        </div>
+                        <div className='project-nav-item'>
+                            <Link to='forager-value' spy={true} smooth={true} offset={-75}>VALUE</Link>
+                        </div>
+                        <div className='project-nav-item'>
+                            <Link to='forager-process' spy={true} smooth={true} offset={-75}>PROCESS</Link>
+                        </div>
                     </div>
                     <div className='project-row header-title'>
                         <div className='project-col'>
@@ -218,6 +232,56 @@ function Forager() {
                                 <div>
                                     Wireframes
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-imgs'>
+                        <div className='project-col'>
+                            <div className='affinity-img-container'>
+                                <img src={foragerAffinityImg}></img>
+                            </div>
+                        </div>
+                        <div className='project-col'>
+                            <div className='img-caption-style-2'>
+                                These experiences were stratified into clear stages as we made a customer journey map, to find critical points where design might improve shoppers lives.
+                            </div>
+                        </div>
+                        <div className='project-col'>
+                            <div className='cjm-img-container'>
+                                <img src={foragerCjmImg}></img>
+                            </div>
+                        </div>
+                        <div className='project-col'>
+                            <div className='img-caption-style-2'>
+                                We translated these interviews into an affinity diagram, seeking to uncover patterns of universal stresses and motivators.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-process'>
+                        <div className='project-col'>
+                            <div className='process-bold-txt'>
+                                We asked ourselves where design would improve the lives of shoppers, and used that to refine our focus.
+                            </div>
+                            <div className='process-txt'>
+                                Once we understood the broad strokes and fine details of the grocery shopper experience, we iterated on our customer journey map. We aimed for a more concise representation that exposed the most stressful and meaningful touchpoints.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className='project-row'>
+                    <div className='forager-imgs'>
+                        <div className='project-col'>
+                            <div className='img-caption-style-2'>
+                                With our refined customer journey map, we noticed that Phase 2, shopping, produced shoppers’ biggest concerns: finding their items and personal safety.
+                            </div>
+                        </div>
+                        <div className='project-col'>
+                            <div className='cjm-refined-img-container'>
+                                <img src={foragerCjmRefinedImg}></img>
                             </div>
                         </div>
                     </div>

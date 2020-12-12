@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion';
 
 import './Vitro.css';
-import { vitroViewObj } from '../ProjectData.js';
+import { vitroObj } from '../../ProjectData.js';
 import vitroViewImg from '../../../images/vitroView.png';
 
 function Vitro() {

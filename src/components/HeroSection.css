@@ -1,7 +1,11 @@
 .home__hero-section {
     color: #fff;
     padding: 40px 0;
-    background-color: #F9F9F9
+    background-color: #F9F9F9;
+}
+
+.incomplete-section {
+    cursor: default;
 }
 
 .home__hero-row {
@@ -70,17 +74,18 @@
 }
 
 .home__hero-img {
-    max-width: 70%;
+    max-width: 60%;
     padding-right: 0;
-    margin: 0 0 0 50px;
+    margin: 0 0 0 100px;
 }
 
 .home__hero-arrow-wrapper {
-    width: 30%;
+    width: 100px;
     float: right;
-    margin-top: 10%;
-    margin-bottom: -14%;
-    margin-right: -10%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: -20px;
 }
 
 .project-links {

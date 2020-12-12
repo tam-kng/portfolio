@@ -43,17 +43,28 @@
 }
 
     .project-nav {
-        width: 60%;
+        width: 80%;
         display: flex;
         flex-direction: row;
         padding: 5px;
+        justify-content: center;
     }
 
         .project-nav > div {
-            flex: 1;
-            border: 1px red solid;
             text-align: center;
-            margin: 10px;
+            margin-left: 30px;
+            margin-right: 30px;
+
+            color: var(--neptune);
+            font-family: "DM Sans", Helvetica, Arial, serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            letter-spacing: 4.8px;
+            line-height: 36px;
+            text-align: center;
+
+            cursor: pointer;
         }
 
     .header-title {
@@ -88,7 +99,7 @@
 
     .header-title-img-container {
         width: auto;
-        max-width: 555px;
+        max-width: 455px;
         margin-bottom: -35px;
     }
 
@@ -370,4 +381,8 @@
             width: 300px;
         }
 
-    
+.img-caption-style-2 {
+    margin-left: 20px;
+    margin-top: 20px;
+    text-justify: center;
+}
