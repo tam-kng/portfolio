@@ -1,12 +1,10 @@
 import React from 'react'
-import { motion } from 'framer-motion';
-
 
 import HeroSection from '../../HeroSection.js';
 import { foragerObj, kstObj, vitroObj } from '../../ProjectData.js';
-
 import './Home.css';
 
+/* Create Home component holding hero sections (project-specific cards) */
 function Home() {
     return (
         <>

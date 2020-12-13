@@ -1,3 +1,4 @@
+/* Home styles */
 .home {
     background-color: #ECD6CA;
     overflow: hidden;
@@ -19,6 +20,7 @@
     text-align: right;
 }
 
+/* used for initial load animation */
 .highlight {
     background-image: linear-gradient(to right, #ECD6CA 50%, #F1A839 50%);
     background-size: 200%;
@@ -30,6 +32,7 @@ p {
     margin-bottom: 20px;
 }
 
+/* used for initial load animation */
 @keyframes highlightIn {
     0% {
         background-position: 0;

@@ -1,10 +1,10 @@
 import React from 'react'
-import { motion } from 'framer-motion';
 
 import './Vitro.css';
 import { vitroObj } from '../../ProjectData.js';
 import vitroViewImg from '../../../images/vitroView.png';
 
+/* Create project-specific Vitro component */
 function Vitro() {
     return (
         <>
@@ -14,7 +14,7 @@ function Vitro() {
                     <div className='vitro__intro'>{vitroObj.introduction}</div>
                 </div>
                 <div className='vitro__img-container'>
-                    <img src={vitroViewImg} className='vitro__img'></img>
+                    <img src={vitroViewImg} alt='vitro project' className='vitro__img'></img>
                 </div>
                 <div className='row'>
                     <div className='col'>

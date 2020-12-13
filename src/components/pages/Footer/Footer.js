@@ -8,6 +8,7 @@ import {
   FaLinkedin
 } from 'react-icons/fa';
 
+/* Create Footer component for universal use across site */
 function Footer() {
   return (
     <div className='footer-container'>

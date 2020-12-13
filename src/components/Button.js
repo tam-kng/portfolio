@@ -7,6 +7,7 @@ const SIZES = ['btn--medium', 'btn--large', 'btn--mobile', 'btn--wide'];
 
 const COLORS = ['primary', 'blue', 'red', 'green'];
 
+/* Create button component */
 export const Button = ({
     children,
     type,
@@ -15,8 +16,7 @@ export const Button = ({
     buttonSize,
     buttonColor
 }) => {
-    // functions to display specific style/size/color wanted
-    // check if created button has a style/size/color, if nonepassed, picks first style/size/color
+    // check, display the wanted style/size/color (if none, shows first style/size/color)
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0];
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonStyle : SIZES[0];
     const checkButtonColor = COLORS.includes(buttonSize) ? buttonStyle : null;

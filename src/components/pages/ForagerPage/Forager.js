@@ -1,9 +1,10 @@
 import React from 'react'
-import { motion } from 'framer-motion';
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link} from "react-scroll";
 
 import './Forager.css';
-import { foragerObj } from '../../ProjectData.js';
+//import { foragerObj } from '../../ProjectData.js';
+
+/* image imports */
 import foragerHomeSmallImg from '../../../images/forager-home-small.svg';
 import foragerInStoreImg from '../../../images/forager-home-in-store.svg';
 import foragerListImg from '../../../images/forager-list.svg';
@@ -12,14 +13,14 @@ import foragerAffinityImg from '../../../images/forager-affinity.svg';
 import foragerCjmImg from '../../../images/forager-cjm.svg';
 import foragerCjmRefinedImg from '../../../images/forager-cjm-refined.svg';
 
-
+/* icon imports */
 import hatIcon from '../../../images/cowboy-hat.svg';
 import calendarIcon from '../../../images/calendar.svg';
 import teamIcon from '../../../images/team.svg';
 import toolsIcon from '../../../images/tools.svg';
 import methodIcon from '../../../images/chat-icon.svg';
-import foragerDoubleImg from '../../../images/forager-double.svg';
 
+/* Create project-specific Forager component */
 function Forager() {
     return (
         <>
@@ -52,20 +53,20 @@ function Forager() {
                         </div>
                         <div className='project-col'>
                             <div className='header-title-img-container'>
-                                <img src={foragerHomeSmallImg}></img>
+                                <img src={foragerHomeSmallImg} alt='forager app'></img>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='project-row'>
                     <div className='in-store-img-container'>
-                        <img src={foragerInStoreImg}></img>
+                        <img src={foragerInStoreImg} alt='forager app'></img>
                     </div>
                 </div>
                 <div className='project-row'>
                     <div className='project-specs'>
                         <div className='project-col'>
-                            <img src={hatIcon}></img>
+                            <img src={hatIcon} alt='cowboy hat'></img>
                             <div className='spec-title'>
                                 MY ROLES
                             </div>
@@ -76,7 +77,7 @@ function Forager() {
                             </div>
                         </div>
                         <div className='project-col'>
-                            <img src={toolsIcon}></img>
+                            <img src={toolsIcon} alt='tools'></img>
                             <div className='spec-title'>
                                     MY TOOLS
                                 </div>
@@ -87,7 +88,7 @@ function Forager() {
                                 </div>
                             </div>
                         <div className='project-col'>
-                            <img src={teamIcon}></img>
+                            <img src={teamIcon} alt='team'></img>
                             <div className='spec-title'>
                                     TEAM
                                 </div>
@@ -102,7 +103,7 @@ function Forager() {
                                 </div>
                             </div>
                         <div className='project-col'>
-                            <img src={calendarIcon}></img>
+                            <img src={calendarIcon} alt='calendar'></img>
                             <div className='spec-title'>
                                     TIMELINE
                                 </div>
@@ -148,7 +149,7 @@ function Forager() {
                     <div className='forager-imgs'>
                         <div className='project-col'>
                             <div className='list-img-container'>
-                                <img src={foragerListImg}></img>
+                                <img src={foragerListImg} alt='forager app list view'></img>
                             </div>
                             <div className='img-caption'>
                                 An in-app grocery list editor lets users aggregate their items
@@ -156,7 +157,7 @@ function Forager() {
                         </div>
                         <div className='project-col img-col'>
                             <div className='map-img-container'>
-                                <img src={foragerMapImg}></img>
+                                <img src={foragerMapImg} alt='forager app map view'></img>
                             </div>
                             <div className='img-caption'>
                                 Step-by-step navigation directs users to their desired items
@@ -213,7 +214,7 @@ function Forager() {
                         </div>
                         <div className='project-col'>
                             <div className='spec-methods'>
-                                <img src={methodIcon}></img>
+                                <img src={methodIcon} alt='chatbox'></img>
                                 <div className='spec-methods-title'>
                                     METHODS
                                 </div>
@@ -240,7 +241,7 @@ function Forager() {
                     <div className='forager-imgs'>
                         <div className='project-col'>
                             <div className='affinity-img-container'>
-                                <img src={foragerAffinityImg}></img>
+                                <img src={foragerAffinityImg} alt='affinity diagram'></img>
                             </div>
                         </div>
                         <div className='project-col'>
@@ -250,7 +251,7 @@ function Forager() {
                         </div>
                         <div className='project-col'>
                             <div className='cjm-img-container'>
-                                <img src={foragerCjmImg}></img>
+                                <img src={foragerCjmImg} alt='customer journey map'></img>
                             </div>
                         </div>
                         <div className='project-col'>
@@ -281,7 +282,7 @@ function Forager() {
                         </div>
                         <div className='project-col'>
                             <div className='cjm-refined-img-container'>
-                                <img src={foragerCjmRefinedImg}></img>
+                                <img src={foragerCjmRefinedImg} alt='refined customer journey map'></img>
                             </div>
                         </div>
                     </div>

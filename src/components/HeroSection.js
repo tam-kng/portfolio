@@ -1,14 +1,11 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 import arrowIcon from '../images/arrow-icon.svg';
-
-import { Button } from './Button.js';
-import Arrow from './Arrow.js';
-import { Link } from 'react-router-dom';
 import './HeroSection.css';
 
+/* Create HeroSection component to hold projects */
 function HeroSection({
     topLine, lightText, lightTextDesc, headline, description, img, alt, imgStart, completed, link
 }) {
@@ -35,7 +32,7 @@ function HeroSection({
                                 <img src={img} alt={alt} className='home__hero-img' />
                             </div>
                             <motion.div className='home__hero-arrow-wrapper' variants={arrowMotion}>
-                                <img src={arrowIcon}></img>
+                                <img src={arrowIcon} alt='arrow'></img>
                             </motion.div>
                         </div>
                     </div>
@@ -47,6 +44,7 @@ function HeroSection({
 
 export default HeroSection;
 
+/* Framer motion variants for use in project card hover and arrow animations */
 const projectMotion = {
     hover: {
         scale: 1.025,
@@ -66,15 +64,4 @@ const arrowMotion = {
         ease: "easeIn"
       }
     }
-  };
-
-const arrowContainer = {
-  hidden: { opacity: 0 },
-  show: {
-      opacity: 1
-  }
 };
-
-const hoverProject = {
-    
-}

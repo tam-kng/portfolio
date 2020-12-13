@@ -1,3 +1,4 @@
+/* Forager component styles */
 :root {
     --neptune: rgba(117, 185, 190, 1);
 }
@@ -35,6 +36,7 @@
     flex-basis: 50%;
 }
 
+/* header specific styles */
 .project-header {
     margin: auto;
     margin-top: 50px;
@@ -141,6 +143,7 @@
         line-height: 28px;
     }
 
+/* problem specific styles */
 .forager-problem {
     flex-direction: row;
     padding: 5px;
@@ -189,6 +192,7 @@
         width: 600px;
     }
 
+/* solution specific styles */
 .forager-solution {
     flex-direction: row;
     padding: 5px;
@@ -251,6 +255,7 @@
         text-align: center;
     }
 
+/* value specific styles */
 .forager-value {
     flex-direction: row;
     padding: 5px;
@@ -313,6 +318,7 @@
         width: 500px;
     }
 
+/* process specific styles */
 .forager-process {
     flex-direction: row;
     padding: 5px;

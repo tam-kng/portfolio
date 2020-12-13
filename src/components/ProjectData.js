@@ -2,12 +2,15 @@ import foragerSmallImg from '../images/forager-home-small.svg';
 import kstScreenImg from '../images/kst-screens.svg';
 import svg2 from '../images/svg-2.svg';
 
+/* Create JSX consts holding data to load into components */
 export const foragerObj = {
+    /* attributes for 'work' page project card styles */
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     completed: true,
 
+    /* attributes for 'work' page project card data */
     link: '/forager',
     topLine: 'CASE STUDY',
     headline: 'Forager: A COVID Grocery Shopper',
@@ -16,6 +19,7 @@ export const foragerObj = {
     img: foragerSmallImg,
     alt: 'Forager App',
 
+    /* attributes for project-specific pages data */
     teamMembers: ['Tam Nguyen', 'Onyekachi Nwabueze', 'Lia Slaton', 'Eric Li'],
     roles: ['Lead UX designer', 'UX researcher'],
     timeline: 'November-December 2020',
@@ -28,11 +32,13 @@ export const foragerObj = {
 };
 
 export const kstObj = {
+    /* attributes for 'work' page project card styles */
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     completed: false,
     
+    /* attributes for 'work' page project card data */
     link: '/',
     topLine: 'UNDER CONSTRUCTION',
     headline: 'KST Passport',
@@ -41,6 +47,7 @@ export const kstObj = {
     img: kstScreenImg,
     alt: 'KST Passport App',
 
+    /* attributes for project-specific pages data */
     teamMembers: ['Tam Nguyen', 'Reese McArdle'],
     roles: ['Led user research, project definition, and ideation', 'Designed the UI and interactive prototypes'],
     timeline: 'October-November 2020',
@@ -53,11 +60,13 @@ export const kstObj = {
 };
 
 export const vitroObj = {
+    /* attributes for 'work' page project card styles */
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
     completed: false,
     
+    /* attributes for 'work' page project card data */
     link: '/',
     topLine: 'UNDER CONSTRUCTION',
     headline: 'Vitro View',
@@ -66,6 +75,7 @@ export const vitroObj = {
     img: svg2,
     alt: 'Desktop Monitor',
 
+    /* attributes for project-specific pages data */
     teamMembers: ['Tam Nguyen', 'Reese McArdle'],
     roles: ['Led user research, project definition, and ideation', 'Designed the UI and interactive prototypes'],
     timeline: 'October-November 2020',

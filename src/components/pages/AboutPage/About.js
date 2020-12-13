@@ -1,18 +1,9 @@
 import React from 'react'
-import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
-
-import {
-    FaFacebook,
-    FaInstagram,
-    FaYoutube,
-    FaTwitter,
-    FaLinkedin
-  } from 'react-icons/fa';
 
 import './About.css';
 import meCasual from '../../../images/meCasual.JPEG';
 
+/* Create About component */
 function About() {
     return (
         <>

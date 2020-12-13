@@ -1,3 +1,4 @@
+/* Set site font to DM Sans */
 body {
   /*
   margin: 0;
@@ -10,6 +11,7 @@ body {
   font-family: 'DM Sans', sans-serif;
 }
 
+/* Set type styles */
 .heading {
   font-weight: 700;
 }

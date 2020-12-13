@@ -1,3 +1,4 @@
+/* Footer styles */
 .footer-container {
     background-color: #ECD6CA;
     padding: 4rem 0 2rem 0;
@@ -131,6 +132,7 @@
     margin-bottom: 16px;
   }
   
+  /* responsive styles */
   @media screen and (max-width: 820px) {
     .footer-links {
       padding-top: 2rem;

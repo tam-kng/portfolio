@@ -11,33 +11,15 @@ import {
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
-import { Button } from './Button.js';
 import './Nav.css';
 
+/* Create Nav component for universal site navigation */
 function Nav() {
+    // react hooks to set state
     const [click, setClick] = useState(false);
-    const [button, setButton] = useState(true);
 
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
-
-    const showButton = () => {
-        if(window.innerWidth <= 960) {
-            setButton(false);
-        }
-        else {
-            setButton(true);
-        }
-    };
-
-    /*
-    // pass in empty array
-    useEffect(() => {
-        showButton();
-    }, []);
-    */
-
-    window.addEventListener('resize', showButton);
 
     return (
         <>
@@ -60,19 +42,6 @@ function Nav() {
                             <li className='nav-item'>
                                 <Link to='/resume' className='nav-links' onClick={closeMobileMenu}>resume</Link>
                             </li>
-                            {/*}
-                            <li className='nav-btn'>
-                                {button ? (
-                                    <Link to='/sign-up' className='btn-link'>
-                                        <Button buttonStyle='btn--outline'>SIGN UP</Button>
-                                    </Link>
-                                ) : (
-                                    <Link to='/sign-up' className='btn-link'>
-                                        <Button buttonStyle='btn--outline' buttonSize='btn--mobile' onClick={closeMobileMenu}>SIGN UP</Button>
-                                    </Link>
-                                )}
-                            </li>
-                                */}
                         </ul>
                     </div>
                 </div>
