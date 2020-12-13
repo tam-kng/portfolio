@@ -1,0 +1,23 @@
+﻿Assignment 8 Writeup
+Part 1
+The purpose of my website is to be my professional portfolio for UX / product design, which I will use to showcase the projects I’ve completed and share with recruiters. The portfolio includes an about page with a brief summary of my interests and background, a page containing my resume, and a page listing the projects I’ve done. The project pages themselves have more specific information, organized by problem, solution, the value of the project, and the process behind it. 
+To make the portfolio engaging, I chose language that made it more personable, such as in the greetings on pages. I also made my language clear and concise, so that recruiters and hiring managers, the target audience, could quickly skim and understand who I am and what position I’m looking for. I also added small touches to the website, such as animations (which are elaborated upon in Part 3) that bring an element of personal style to the site, making it more interesting without becoming overly distracting.
+Part 2
+* In the navigation, users would hover over various choices (such as ‘about’) and see an orange ‘highlight’ that moves from left to right move into the background behind the choice. This was to clearly denote to users they could 
+* Users would hover over the sections containing the title of my projects, and a brief tagline, which would trigger one of two animations.
+   * If the project has been completed, the section will ‘pop-out’ a bit on hover, as well as reveal a small arrow in the bottom right of the project section. Both these two animations are meant to indicate to users they can click on the project.
+   * If the project is not completed, there is no ‘pop-out’ animation or arrow, and the section will instead become much more transparent upon hover. Additionally, the cursor doesn’t change, remaining an arrow rather than a pointer finger. This is intended to achieve the opposite effect (that a section isn’t clickable).
+* On individual project pages, there is a project-specific navigation near the top of the page. This allows users to quick-scroll to particular parts of the project, such as the problem, solution, value, or process. By clicking these choices, the page automatically scrolls down to that portion.
+Part 3
+* React
+   * I chose this tool to take advantage of its components that I could use throughout my site. This felt more efficient than having to build each page completely individually.
+   * I used it to build reusable components, such as the navigation and footer of my site. I also created my project sections as components.
+   * It makes the website more responsive as well as easier to scale. This will be useful as I add more work to my portfolio.
+* Framer-Motion
+   * I chose this animation library as it seemed straightforward, and is compatible with React.
+   * I used this library to animate my project sections on my ‘work’ page. Upon hover, the project sections will ‘pop’ out, which I achieved by scaling the element up by a small factor. I also used its ‘variants’ which allow for pre-set versions of components with different properties.
+   * React-Motion makes my website more dynamic, while creating a signifier for the affordance that my project sections can be clicked upon. This makes it easier for users to navigate through the site.
+Part 4
+I iterated upon my HW7 mockups the most in my detailed product page, where I expanded upon the project structure by organizing it into the problem, solution, value, and process sections, with a small navigation at the top. I chose this structure to better communicate what I had produced and learned through my work.
+Part 5
+Challenges included in implementing this website were learning how to work with Framer-Motion’s variants to produce animations. Another challenge was structuring the layout of my project-specific page, which required a lot of experimenting with CSS styles.
