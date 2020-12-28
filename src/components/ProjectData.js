@@ -1,3 +1,7 @@
+import foragerDesktopBkg from '../images/forager-desktop-img.svg';
+import foragerMobileBkg from '../images/forager-mobile-img.svg';
+import kstMobileBkg from '../images/kst-mobile-bkg.svg';
+
 import foragerSmallImg from '../images/forager-home-small.svg';
 import kstScreenImg from '../images/kst-screens.svg';
 import svg2 from '../images/svg-2.svg';
@@ -13,10 +17,11 @@ export const foragerObj = {
     /* attributes for 'work' page project card data */
     link: '/forager',
     topLine: 'CASE STUDY',
-    headline: 'Forager: A COVID Grocery Shopper',
+    headline: 'Forager',
     description: 'Prioritizing the safety and comfort of grocery shoppers in a routine but essential activity.',
     imgStart: '',
-    img: foragerSmallImg,
+    img: foragerDesktopBkg,
+    bkg: foragerMobileBkg,
     alt: 'Forager App',
 
     /* attributes for project-specific pages data */
@@ -45,6 +50,7 @@ export const kstObj = {
     description: 'Promoting and showcasing community partnerships with local performance art.',
     imgStart: '',
     img: kstScreenImg,
+    bkg: kstMobileBkg,
     alt: 'KST Passport App',
 
     /* attributes for project-specific pages data */

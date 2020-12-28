@@ -41,3 +41,34 @@ p {
         background-position: -100%
     }
 }
+
+/* Responsive styles */
+/*
+@media screen and (max-width: 991px) {
+    .container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+*/
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: auto;
+        margin: 25px;
+    }
+
+    .greeting {
+    }
+}
+
+/*
+@media screen and (min-width: 768px) {
+    .home__hero-section {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+}
+*/

@@ -7,8 +7,10 @@ import './HeroSection.css';
 
 /* Create HeroSection component to hold projects */
 function HeroSection({
-    topLine, lightText, lightTextDesc, headline, description, img, alt, imgStart, completed, link
+    topLine, lightText, lightTextDesc, headline, description, img, bkg, alt, imgStart, completed, link
 }) {
+    const imageUrl = window.innerWidth >= 650 ? img : bkg;
+
     return (
         <Link to={link} className='project-links'>
             <motion.div 
@@ -17,6 +19,7 @@ function HeroSection({
                 initial='rest'
                 whileHover={completed ? 'hover' : 'hoverIncomplete'}
                 transition={{ type: "tween" }}
+                style={{backgroundImage: `url(${imageUrl})`}}
             >
                 <div className='container'>
                     <div className='row home__hero-row' style={{display: 'flex', flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'}}>
@@ -28,9 +31,11 @@ function HeroSection({
                             </div>
                         </div>
                         <div className='col'>
+                            {/*}
                             <div className='home__hero-img-wrapper'>
                                 <img src={img} alt={alt} className='home__hero-img' />
                             </div>
+                            {*/}
                             <motion.div className='home__hero-arrow-wrapper' variants={arrowMotion}>
                                 <img src={arrowIcon} alt='arrow'></img>
                             </motion.div>
