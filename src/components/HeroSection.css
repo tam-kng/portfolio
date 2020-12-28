@@ -108,10 +108,12 @@ img {
     }
 }
 
+/* Mobile Displays */
 @media screen and (max-width: 768px) {
     .home__hero-section {
         background-repeat: no-repeat;
         background-size: 100%;
+        margin-bottom: 40px;
     }
 
     .home__hero-text-wrapper {

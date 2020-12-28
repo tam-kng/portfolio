@@ -1,6 +1,9 @@
 import foragerDesktopBkg from '../images/forager-desktop-img.svg';
+import kstDesktopBkg from '../images/kst-desktop-bkg.svg';
+import vitroDesktopBkg from '../images/vitro-desktop-bkg.svg';
 import foragerMobileBkg from '../images/forager-mobile-img.svg';
 import kstMobileBkg from '../images/kst-mobile-bkg.svg';
+import vitroMobileBkg from '../images/vitro-mobile-img.svg';
 
 import foragerSmallImg from '../images/forager-home-small.svg';
 import kstScreenImg from '../images/kst-screens.svg';
@@ -49,7 +52,7 @@ export const kstObj = {
     headline: 'KST Passport',
     description: 'Promoting and showcasing community partnerships with local performance art.',
     imgStart: '',
-    img: kstScreenImg,
+    img: kstDesktopBkg,
     bkg: kstMobileBkg,
     alt: 'KST Passport App',
 
@@ -76,9 +79,10 @@ export const vitroObj = {
     link: '/',
     topLine: 'UNDER CONSTRUCTION',
     headline: 'Vitro View',
-    description: 'Adapting to a remote, online world with interactive demonstration tools for physical products.',
+    description: 'Adapting to an online world with interactive demonstration tools for physical products.',
     imgStart: '',
-    img: svg2,
+    img: vitroDesktopBkg,
+    bkg: vitroMobileBkg,
     alt: 'Desktop Monitor',
 
     /* attributes for project-specific pages data */
