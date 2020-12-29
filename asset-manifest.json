@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.91d0d3f5.chunk.css",
-    "main.js": "/portfolio/static/js/main.de0c4fa0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.de0c4fa0.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b573d382.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b573d382.js.map",
-    "static/js/2.25329c77.chunk.js": "/portfolio/static/js/2.25329c77.chunk.js",
-    "static/js/2.25329c77.chunk.js.map": "/portfolio/static/js/2.25329c77.chunk.js.map",
-    "static/js/3.4e5791e1.chunk.js": "/portfolio/static/js/3.4e5791e1.chunk.js",
-    "static/js/3.4e5791e1.chunk.js.map": "/portfolio/static/js/3.4e5791e1.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.72f14c19.chunk.css",
+    "main.js": "/portfolio/static/js/main.7d770672.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7d770672.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.e3f3ee50.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.e3f3ee50.js.map",
+    "static/js/2.ee8b5504.chunk.js": "/portfolio/static/js/2.ee8b5504.chunk.js",
+    "static/js/2.ee8b5504.chunk.js.map": "/portfolio/static/js/2.ee8b5504.chunk.js.map",
+    "static/js/3.af68fd1b.chunk.js": "/portfolio/static/js/3.af68fd1b.chunk.js",
+    "static/js/3.af68fd1b.chunk.js.map": "/portfolio/static/js/3.af68fd1b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.91d0d3f5.chunk.css.map": "/portfolio/static/css/main.91d0d3f5.chunk.css.map",
-    "static/js/2.25329c77.chunk.js.LICENSE.txt": "/portfolio/static/js/2.25329c77.chunk.js.LICENSE.txt",
+    "static/css/main.72f14c19.chunk.css.map": "/portfolio/static/css/main.72f14c19.chunk.css.map",
+    "static/js/2.ee8b5504.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ee8b5504.chunk.js.LICENSE.txt",
     "static/media/Tam_Nguyen-Dec2020_Resume.389bdbb3.png": "/portfolio/static/media/Tam_Nguyen-Dec2020_Resume.389bdbb3.png",
     "static/media/arrow-icon.395127d8.svg": "/portfolio/static/media/arrow-icon.395127d8.svg",
     "static/media/calendar.98b9ed38.svg": "/portfolio/static/media/calendar.98b9ed38.svg",
@@ -38,9 +38,9 @@
     "static/media/vitroView.22e9ae44.png": "/portfolio/static/media/vitroView.22e9ae44.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.b573d382.js",
-    "static/js/2.25329c77.chunk.js",
-    "static/css/main.91d0d3f5.chunk.css",
-    "static/js/main.de0c4fa0.chunk.js"
+    "static/js/runtime-main.e3f3ee50.js",
+    "static/js/2.ee8b5504.chunk.js",
+    "static/css/main.72f14c19.chunk.css",
+    "static/js/main.7d770672.chunk.js"
   ]
 }
