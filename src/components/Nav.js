@@ -11,13 +11,13 @@ import {
 import { FaBars, FaTimes } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 
+import './hamburgers.css';
 import './Nav.css';
 
 /* Create Nav component for universal site navigation */
 function Nav() {
     // react hooks to set state
     const [click, setClick] = useState(false);
-
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
@@ -30,7 +30,18 @@ function Nav() {
                             Tam Nguyen
                         </Link>
                         <div className='menu-icon' onClick={handleClick}>
-                            {click ? <FaTimes /> : <FaBars />}
+                            {click ? <button class="hamburger hamburger--collapse is-active" type="button">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                                    :
+                                    <button class="hamburger hamburger--collapse" type="button">
+                                        <span class="hamburger-box">
+                                            <span class="hamburger-inner"></span>
+                                        </span>
+                                    </button>
+                            }
                         </div>
                         <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                             <li className='nav-item'>
