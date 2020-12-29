@@ -30,15 +30,15 @@ function Nav() {
                             Tam Nguyen
                         </Link>
                         <div className='menu-icon' onClick={handleClick}>
-                            {click ? <button class="hamburger hamburger--collapse is-active" type="button">
-                                        <span class="hamburger-box">
-                                            <span class="hamburger-inner"></span>
+                            {click ? <button className="hamburger hamburger--spin is-active" type="button">
+                                        <span className="hamburger-box">
+                                            <span className="hamburger-inner"></span>
                                         </span>
                                     </button>
                                     :
-                                    <button class="hamburger hamburger--collapse" type="button">
-                                        <span class="hamburger-box">
-                                            <span class="hamburger-inner"></span>
+                                    <button className="hamburger hamburger--spin" type="button">
+                                        <span className="hamburger-box">
+                                            <span className="hamburger-inner"></span>
                                         </span>
                                     </button>
                             }
