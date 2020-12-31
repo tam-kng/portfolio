@@ -452,4 +452,38 @@
             margin: 10px;
             padding: 0px;
         }
+
+    .forager-problem {
+        width: 100%;
+    }
+
+    .forager-problem > div > div {
+        width: 100%;
+    }
+
+    .forager-solution {
+        width: 100%;
+    }
+
+    .forager-solution > div > div {
+        width: 100%;
+    }
+
+    .forager-value {
+        width: 100%;
+    }
+
+    .forager-value > div > div {
+        width: 100%;
+        margin: 0;
+    }
+
+        .value-body > div {
+            height: auto;
+            width: 100%;
+        }
+
+        .value-large-txt {
+            margin-bottom: 10px;
+        }
 }
